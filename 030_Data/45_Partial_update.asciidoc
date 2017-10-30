@@ -86,7 +86,7 @@ POST /website/blog/1/_update
 脚本可以作为请求的一部分被传递，从特殊的 .scripts 索引中检索，或者从磁盘加载脚本。
 
 
-默认的脚本语言 ((("Groovy")))是 http://groovy.codehaus.org/[Groovy]，一种快速表达的脚本语言，在语法上与 JavaScript 类似。
+默认的脚本语言 ((("Groovy")))是 http://www.groovy-lang.org/[Groovy]，一种快速表达的脚本语言，在语法上与 JavaScript 类似。
 它在 Elasticsearch V1.3.0 版本首次引入并运行在 _沙盒_ 中，然而 Groovy 脚本引擎存在漏洞，
 允许攻击者通过构建 Groovy 脚本，在 Elasticsearch Java VM 运行时脱离沙盒并执行 shell 命令。
 
